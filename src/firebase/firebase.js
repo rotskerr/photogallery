@@ -4,13 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_APP_ID
-};
+    apiKey: "AIzaSyDUBtt6Dk2dNuEIkaa-Hn6cACari788LRk",
+  authDomain: "photogallery-c3c17.firebaseapp.com",
+  projectId: "photogallery-c3c17",
+  storageBucket: "photogallery-c3c17.appspot.com",
+  messagingSenderId: "150403057720",
+  appId: "1:150403057720:web:03fea67c9cee4cc0963ecd",
 
 let app, auth, storage, db, firestore;
 
